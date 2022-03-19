@@ -5,7 +5,7 @@ import { MsalProvider } from "@azure/msal-react";
 import { PageLayout } from "./components/PageLayout";
 import { Profile } from "./pages/Profile";
 import { Function } from "./pages/Function";
-import { Home } from "./pages/Home";
+import { Hello } from "./pages/Hello";
 
 
 import "./styles/App.css";
@@ -19,8 +19,8 @@ const Pages = () => {
       <Route path="/function">
         <Function />
       </Route>
-      <Route path="/home">
-        <Home />
+      <Route path="/hello">
+        <Hello />
       </Route>
     </Switch>
   )
